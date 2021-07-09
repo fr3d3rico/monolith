@@ -4,6 +4,5 @@ docker-compose.yaml
 docker-compose-build.yaml
 docker-compose-aws.yaml
 docker-compose-build-aws.yaml
-package-lock.json
 set_env.sh
 udagram-api.postman_collection.json
