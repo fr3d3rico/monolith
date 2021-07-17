@@ -6,3 +6,5 @@ docker-compose-aws.yaml
 docker-compose-build-aws.yaml
 set_env.sh
 udagram-api.postman_collection.json
+
+monolith-project-KUBERNETES-LOCAL.rar
