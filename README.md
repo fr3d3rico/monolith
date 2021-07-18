@@ -15,7 +15,7 @@
     ![Kubectl](https://github.com/fr3d3rico/monolith/blob/master/screenshots/kubectl-gets.JPG)
 
     - kubectl Activity POD log
-    ![Kubectl](https://github.com/fr3d3rico/monolith/blob/master/screenshots/kubectl-logs-pod-backend-user.JPG)
+    ![Kubectl](https://github.com/fr3d3rico/monolith/blob/master/screenshots/kubectls-logs-pod-backend-user.JPG)
     
     - kubectl describe Reverse Proxy
     ![Kubectl](https://github.com/fr3d3rico/monolith/blob/master/screenshots/kubectl-describe-service-reverse-proxy.JPG)
