@@ -17,9 +17,16 @@ spec:
       containers:
       - name: udagram-api-feed
         image: fr3d3rico/udagram-api-feed
-        imagePullPolicy: Always
         ports:
         - containerPort: 8080
+        imagePullPolicy: Always
+        resources: #This resource is needed to avoid Scaling FailedGetResourceMetric error
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "1024Mi"
+            cpu: "500m"
         env:
         - name: POSTGRES_USERNAME
           valueFrom:

@@ -19,3 +19,10 @@ spec:
         image: fr3d3rico/udagram-frontend
         ports:
         - containerPort: 8100
+        imagePullPolicy: Always
+        resources: #This resource is needed to avoid Scaling FailedGetResourceMetric error
+          requests:
+            cpu: "250m"
+          limits:
+            cpu: "500m"
+      restartPolicy: Always
